@@ -29,8 +29,8 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    label.font = UIFont.fontAwesomeOfSize(200)
-    label.text = String.fontAwesomeIconWithName("fa-github")
+    label.font = UIFont.fontAwesome(size: 200)
+    label.text = "\(FontAwesome.adjust)"
   }
 }
 
